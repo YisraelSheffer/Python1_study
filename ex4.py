@@ -1,10 +1,10 @@
 while True:
-    a = input("Pick a number ")
+    a = raw_input("Pick a number ")
     try:
         a = int(a)
         break
     except:
-        print("Invalid ")
+        print "Invalid "
 for x in range(1,int(a/2)):
     div = a%x
     if (div == 0):
